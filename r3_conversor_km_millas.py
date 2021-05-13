@@ -18,7 +18,7 @@ def run():
         miles = float(input('¿Cuantas millas quieres convertir: '))
         convertion = miles * 1.609344
         convertion = round(convertion,3)
-        print('Son ' +str(convertion)+ ' millas')
+        print('Son ' +str(convertion)+ ' kilometros')
     else:
         print('Opcion incorrecta, adios')
 

@@ -31,15 +31,15 @@ Selecciona una opcion para continuar:
 2- Volumen de un cubo
 3- Volumen de una esfera
 
-: '''
+Especifique su opcion: '''
 
 def run():
-    choice = input(menu)
-    if choice == '1':
+    choice = int(input(menu))
+    if choice == 1:
         cilinder_volume()
-    if choice == '2':
+    elif choice == 2:
         cube_volume()
-    if choice == '3':
+    elif choice == 3:
         sphere_volume()
     else:
         print('Opcion incorecta, adios😘')
