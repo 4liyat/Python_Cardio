@@ -8,6 +8,9 @@ def run():
         if choice in range(b_limit, t_limit):
             print('el valor ' + str(choice) + ' se encuentra dentro del rango')
             start = False
+        elif choice in range(t_limit, b_limit):
+            print('el valor ' + str(choice) + ' se encuentra dentro del rango')
+            start = False
         else:
             print('el valor ' + str(choice) + ' se encuentra fuera de los limites')
             choice = int(input('Escoja un valor: '))
